@@ -1,7 +1,7 @@
 ## NOWE REPO GIT
 
 Naucz się więcej na:
-[lkiknij mnie!](http://www.wsb.pl)
+[kliknij mnie!](http://www.wsb.pl)
 
 ### Procedura instalacji apki:
 1. Sklonuj repo lokalnie na komputer
