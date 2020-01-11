@@ -1,7 +1,36 @@
-p{
-    background-color: yellow;
+* {
+    box-sizing: border-box;
+}
+body {
+    background: black;
     color: white;
-    border: 1px solid;  
-    padding: 20px;   
-    text-align: center;                                                             
+    width: 100vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    counter-reset: card;
+}
+.card {
+    counter-increment: card_number;
+
+}
+.card_number::before{
+    font-weight: bold;
+    font-size: 38px;
+    content: counter(card-number);
+}
+.card {
+    width: 100px;
+    height: 150px;
+    background: red;
+    padding: 10px;
+    margin: 5px;
+}
+.card:nth-child(2){
+    background: yellow;
+
+}
+.card:nth-child(3){
+    background: green;
+
 }
